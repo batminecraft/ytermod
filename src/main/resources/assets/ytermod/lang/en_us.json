@@ -1,4 +1,5 @@
 {
-  "item_group.ytermod.ytermod_ores": "tab.ores",
-  "item.ytermod.cupper_diam_powder": "item.cupperdiam_powder"
+  "item.ytermod.cupperdiam_powder": "items.cupperdiampowder",
+  "item_group.ytermod.ytermodores": "tabs.ores",
+  "item.ytermod.cupperdiam_ingot": "items.cupperdiam_ingot"
 }
