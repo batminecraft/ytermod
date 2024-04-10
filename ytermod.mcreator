@@ -10,45 +10,13 @@
         "files": []
       },
       "path": "~/tabs"
-    },
-    {
-      "name": "Cupperdiam",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cupperdiam_powder",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/yteriagrp/ytermod/item/CupperdiamItem.java",
-          "src/main/resources/assets/ytermod/models/item/cupperdiam_powder.json"
-        ]
-      },
-      "path": "~/items"
-    },
-    {
-      "name": "Cupperdiamingot",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cupperdiam_ingot",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/yteriagrp/ytermod/item/CupperdiamingotItem.java",
-          "src/main/resources/assets/ytermod/models/item/cupperdiam_ingot.json"
-        ]
-      },
-      "path": "~/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ytermod.cupperdiam_powder": "items.cupperdiampowder",
-      "item_group.ytermod.ytermodores": "tabs.ores",
-      "item.ytermod.cupperdiam_ingot": "items.cupperdiam_ingot"
+      "item_group.ytermod.ytermodores": "tabs.ores"
     }
   },
   "foldersRoot": {
