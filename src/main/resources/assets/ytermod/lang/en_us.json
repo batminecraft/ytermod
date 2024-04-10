@@ -1,1 +1,4 @@
-{}
+{
+  "item_group.ytermod.ytermod_ores": "tab.ores",
+  "item.ytermod.cupper_diam_powder": "item.cupperdiam_powder"
+}

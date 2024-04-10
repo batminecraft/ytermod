@@ -17,6 +17,9 @@ import org.apache.logging.log4j.LogManager;
 
 import net.fabricmc.api.ModInitializer;
 
+import fr.yteriagrp.ytermod.init.YtermodModTabs;
+import fr.yteriagrp.ytermod.init.YtermodModItems;
+
 public class YtermodMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String MODID = "ytermod";
@@ -24,6 +27,10 @@ public class YtermodMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing YtermodMod");
+
+		YtermodModTabs.load();
+
+		YtermodModItems.load();
 
 	}
 }

@@ -1,9 +1,36 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CupperDiamPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cupper_diam_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/yteriagrp/ytermod/item/CupperDiamPowderItem.java",
+          "src/main/resources/assets/ytermod/models/item/cupper_diam_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "YtermodOres",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ytermod_ores",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.ytermod.ytermod_ores": "tab.ores",
+      "item.ytermod.cupper_diam_powder": "item.cupperdiam_powder"
+    }
   },
   "foldersRoot": {
     "name": "~",
