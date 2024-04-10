@@ -11,14 +11,17 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
-import fr.yteriagrp.ytermod.item.CupperDiamPowderItem;
+import fr.yteriagrp.ytermod.item.CupperdiamingotItem;
+import fr.yteriagrp.ytermod.item.CupperdiamItem;
 import fr.yteriagrp.ytermod.YtermodMod;
 
 public class YtermodModItems {
-	public static Item CUPPER_DIAM_POWDER;
+	public static Item CUPPERDIAM_INGOT;
+	public static Item CUPPERDIAM_POWDER;
 
 	public static void load() {
-		CUPPER_DIAM_POWDER = register("cupper_diam_powder", new CupperDiamPowderItem());
+		CUPPERDIAM_INGOT = register("cupperdiam_ingot", new CupperdiamingotItem());
+		CUPPERDIAM_POWDER = register("cupperdiam_powder", new CupperdiamItem());
 	}
 
 	public static void clientLoad() {

@@ -14,10 +14,10 @@ import java.util.List;
 
 import fr.yteriagrp.ytermod.init.YtermodModTabs;
 
-public class CupperDiamPowderItem extends Item {
-	public CupperDiamPowderItem() {
+public class CupperdiamItem extends Item {
+	public CupperdiamItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
-		ItemGroupEvents.modifyEntriesEvent(YtermodModTabs.TAB_YTERMOD_ORES).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(YtermodModTabs.TAB_YTERMODORES).register(content -> content.accept(this));
 	}
 
 	@Override

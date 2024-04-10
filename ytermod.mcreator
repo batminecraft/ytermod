@@ -1,40 +1,76 @@
 {
   "mod_elements": [
     {
-      "name": "CupperDiamPowder",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cupper_diam_powder",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/yteriagrp/ytermod/item/CupperDiamPowderItem.java",
-          "src/main/resources/assets/ytermod/models/item/cupper_diam_powder.json"
-        ]
-      }
-    },
-    {
-      "name": "YtermodOres",
+      "name": "Ytermodores",
       "type": "tab",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ytermod_ores",
+      "registry_name": "ytermodores",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "Cupperdiam",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cupperdiam_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/yteriagrp/ytermod/item/CupperdiamItem.java",
+          "src/main/resources/assets/ytermod/models/item/cupperdiam_powder.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Cupperdiamingot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cupperdiam_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/yteriagrp/ytermod/item/CupperdiamingotItem.java",
+          "src/main/resources/assets/ytermod/models/item/cupperdiam_ingot.json"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.ytermod.ytermod_ores": "tab.ores",
-      "item.ytermod.cupper_diam_powder": "item.cupperdiam_powder"
+      "item.ytermod.cupperdiam_powder": "items.cupperdiampowder",
+      "item_group.ytermod.ytermodores": "tabs.ores",
+      "item.ytermod.cupperdiam_ingot": "items.cupperdiam_ingot"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "armors",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "ytermod",
