@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "name": "YterMod",
   "authors": [
-    "pc, MCreator"
+    "BatMultifonction - RuralPainter857"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "http://yteria.fr",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "All Rights Reserved",
   "accessWidener": "ytermod.accesswidener",
   "environment": "*",
   "entrypoints": {
