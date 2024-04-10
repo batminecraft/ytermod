@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "item.cupperdiam_powder",
+    "name": "items.cupperdiampowder",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:YtermodOres"
+      "value": "CUSTOM:Ytermodores"
     },
     "stackSize": 64,
     "enchantability": 0,

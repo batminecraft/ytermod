@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "tab",
   "definition": {
-    "name": "tab.ores",
+    "name": "tabs.ores",
     "icon": {
-      "value": "CUSTOM:CupperDiamPowder"
+      "value": "Blocks.POLISHED_BLACKSTONE_SLAB"
     },
     "showSearch": false
   }

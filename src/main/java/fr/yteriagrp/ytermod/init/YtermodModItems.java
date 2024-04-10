@@ -11,7 +11,6 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
-import fr.yteriagrp.ytermod.item.CupperDiamPowderItem;
 import fr.yteriagrp.ytermod.YtermodMod;
 
 public class YtermodModItems {
